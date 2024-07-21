@@ -25,7 +25,7 @@ allprojects {
         maven("https://repo.mineinabyss.com/releases/")
         maven("https://repo.mineinabyss.com/snapshots/")
         maven("https://maven.citizensnpcs.co/repo")
-        maven("https://jitpack.io")
+        maven("https://jitpack.io") // 添加这一行
         maven("https://repo.md-5.net/content/groups/public/")
         maven("https://nexus.phoenixdevt.fr/repository/maven-public/")
         maven("https://repo.auxilor.io/repository/maven-public/")
@@ -57,7 +57,7 @@ allprojects {
         compileOnly("LibsDisguises:LibsDisguises:10.0.21") {
             exclude("org.spigotmc", "spigot")
         }
-        compileOnly("com.github.Xiao-MoMi:Custom-Fishing:2.1.2")
+        compileOnly("com.github.Xiao-MoMi:Custom-Fishing:2.1.2") // 确保版本正确
         compileOnly("com.ticxo.modelengine:ModelEngine:R4.0.2")
 
         annotationProcessor("org.projectlombok:lombok:1.18.34")
