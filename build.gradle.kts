@@ -57,7 +57,7 @@ allprojects {
         compileOnly("LibsDisguises:LibsDisguises:10.0.21") {
             exclude("org.spigotmc", "spigot")
         }
-        compileOnly("com.github.Xiao-MoMi:Custom-Fishing:2.1.2") // 确保版本正确
+        compileOnly("com.github.Xiao-MoMi:Custom-Fishing:2.2.0") // 确保版本正确
         compileOnly("com.ticxo.modelengine:ModelEngine:R4.0.2")
 
         annotationProcessor("org.projectlombok:lombok:1.18.34")
